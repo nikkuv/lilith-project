@@ -1,9 +1,9 @@
 import "@/styles/globals.css";
-import { Mognolia } from "./fonts";
+import { Magnolia } from "@/fonts/fonts";
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${Mognolia.className}`} >
+    <main className={Magnolia.variable}>
       <Component {...pageProps} />
     </main>
   );

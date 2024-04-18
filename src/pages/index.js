@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <Head >
+      <Head>
         <title>Lilith</title>
         <meta name="description" content="Created by nikkuv" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
