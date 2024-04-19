@@ -1,5 +1,4 @@
 import localFont from 'next/font/local';
-import cn from 'clsx';
 
 export const Magnolia = localFont({
     src: [
