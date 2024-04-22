@@ -17,6 +17,11 @@ export const Magnolia = localFont({
             weight: '400',
             style: 'normal',
         },
+        {
+            path: './ClashDisplay-Regular.woff2',
+            weight: '400',
+            style: 'normal',
+        },
     ],
     variable: '--font-magnolia',
 })
