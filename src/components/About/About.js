@@ -10,9 +10,12 @@ const About = () => {
         </div>
         <div className={styles.rightContent}>
           <div className={styles.outerImage}>
-            <img src="/star.svg" alt="about image" className={styles.starImage} />
-            <img src="/about.png" alt="about image" className={styles.aboutImage} />
+            <img src="/star.svg" alt="star image" className={styles.starImage} />
           </div>
+          <div className={styles.innerImage}>
+            <img src="/star.svg" alt="star image" className={styles.starImage} />
+          </div>
+          <img src="/about.png" alt="about image" className={styles.aboutImage} />
         </div>
       </div>
     </div>

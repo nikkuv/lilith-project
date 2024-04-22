@@ -21,24 +21,36 @@
 
 .rightContent {
     margin-left: auto;
+    position: relative;
 }
 
 .aboutContentHeading {
     font-size: 128px;
 }
 
-.outerImage, .aboutImage {
-    position: relative;
+.outerImage {
     border: 2px solid #8A8A8A;
     padding: 2rem;
-    
+    position: absolute;
     border-radius: 260px;
+    height: 700px;
+    width: 465px;
+    top: -4%;
+    left: -8%;
+}
+
+.innerImage {
+    border: 2px solid #8A8A8A;
+    padding: 2rem;
+    position: absolute;
+    border-radius: 260px;
+    height: 765px;
+    width: 565px;
+    top: -8%;
+    left: -20%;
 }
 
 .starImage {
-    /* top: 0%;
-    left: 0%; */
     top: 10%;
-    left: 20%;
     position: absolute;
 }
